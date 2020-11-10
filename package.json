@@ -1,9 +1,9 @@
 {
   "name": "angular",
   "version": "0.0.1",
-  "private": true,
   "engines": {
-    "node": "12.x"
+    "node": "12.x",
+    "npm": "6.x"
   },
   "dependencies": {
     "@angular/animations": "^10.0.9",
@@ -21,7 +21,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "npm run build",
+    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
